@@ -30,6 +30,11 @@ function run(){
           include_removed_events: false
         }
       });
+      API.calendars.getCalendars({
+        params: {
+          OO: false
+        }
+      });
     }
   };
   API = new swaggerAPI(swaggerOptions);
