@@ -1,0 +1,26 @@
+{
+  "name": "swagger-js-api",
+  "version": "0.0.1",
+  "description": "JS API Swagger",
+  "main": "Gruntfile.js",
+  "dependencies": {
+    "grunt-cli": "^1.2.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/comlaterra/swagger-js-api.git"
+  },
+  "author": "Edmon Marine",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/comlaterra/swagger-js-api/issues"
+  },
+  "homepage": "https://github.com/comlaterra/swagger-js-api#readme"
+}
