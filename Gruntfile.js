@@ -3,7 +3,7 @@ module.exports = function(grunt) {
     uglify: {
       my_target: {
         files: {
-          'dist/swagger-js-api.min.js': ['lib/utils.js', 'lib/http-utils.js', 'lib/swagger-js-api.js']
+          'dist/open-api-js.min.js': ['lib/utils.js', 'lib/http-utils.js', 'lib/swagger-js-api.js']
         }
       }
     }
