@@ -7,7 +7,7 @@ function run(){
     "serverInfo":{
       "basePath": 'https://beta.calendar42.com/api'
     },
-    "authentication":{
+    "Authorization":{
       "token" : "f24fd7b3f9e8461a7f36a2628880dbb560d43ae4"
     },
     "operations":{
