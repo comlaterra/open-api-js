@@ -1,4 +1,4 @@
-# swagger-js-api
+# open-api-js
 
 ## Why
 
@@ -6,4 +6,4 @@ Based on [Swagger Spec](https://github.com/swagger-api/swagger-spec) building a 
 
 ## Goal
 
-To create an agnostic js-lite client that will be able to manage all changes in the REST side without change.
+To create an agnostic js (ES5) client that will be able to manage all changes in the REST side without change.
