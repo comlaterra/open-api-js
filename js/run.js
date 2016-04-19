@@ -5,17 +5,19 @@ var API;
 function run(){
   var swaggerOptions = {
     "serverInfo":{
-      "basePath": 'https://beta.calendar42.com/api'
+      "basePath": 'https://dev02.calendar42.com/api'
     },
     "Authorization":{
-      "token" : "f24fd7b3f9e8461a7f36a2628880dbb560d43ae4"
+      "token" : local_settings.API_token
     },
     "operations":{
       "Calendar_Api_get_calendars":"getCalendars",
+      "Calendar_Api_post_calendars":"postCalendar",
       "Event_Subscription_Api_post_event_subscription" : "postEventSubscription",
       "Event_Subscription_Api_get_event_subscriptions" : "getEventSubscription",
       "Event_Api_post_event" : "postEvent",
       "Event_Api_get_events" : "getEvents",
+      "Event_Api_patch_event" : "patchEvent",
       "Location_Api_get_locations" : "getLocations",
       "Position_Api_post_position" : "postPosition",
       "Search_Event_Api_search_events" : "searchEvents",
@@ -30,11 +32,11 @@ function run(){
           include_removed_events: false
         }
       });
-      API.calendars.getCalendars({
-        params: {
-          OO: false
+      API.events.postEvent({
+        params:{
+          title: "false"
         }
-      });
+      })
     }
   };
   API = new swaggerAPI(swaggerOptions);

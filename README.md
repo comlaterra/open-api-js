@@ -1,5 +1,25 @@
 # open-api-js
 
+Javascript client to connect to any API that follows the [Open API](https://github.com/OAI/OpenAPI-Specification) Specification.
+
+Providing of the basePath of an Open API this javascript connector will generate a full mapping accessible trhough functions.
+
+## Usage:
+
+The simplest example is the following:
+
+```
+var API;
+function{
+  var swaggerOptions = {
+    "serverInfo":{
+      "basePath": 'https://beta.calendar42.com/api'
+    }
+  };
+  API = new swaggerAPI(swaggerOptions);
+}();
+```
+
 ## Why
 
 Based on [Swagger Spec](https://github.com/swagger-api/swagger-spec) building a basic connector for the awesome [Calendar42](http://calendar42.com) [REST API](https://calendar42.com/api/docs/).

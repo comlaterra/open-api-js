@@ -4,3 +4,4 @@
 node_modules/
 platforms/
 plugins/
+js/local_settings.js
