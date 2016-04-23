@@ -16,7 +16,7 @@ function{
       "basePath": 'https://beta.calendar42.com/api'
     }
   };
-  API = new swaggerAPI(swaggerOptions);
+  API = new openAPIJS(swaggerOptions);
 }();
 ```
 
