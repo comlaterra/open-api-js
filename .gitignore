@@ -4,4 +4,4 @@
 node_modules/
 platforms/
 plugins/
-js/local_settings.js
+examples/C42/js/local_settings.js

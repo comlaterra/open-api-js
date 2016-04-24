@@ -26,19 +26,21 @@ function run(){
     },
     "forceParams": true,
     onReady: function(){
+      // To run whatever is required only when the API is loaded should be done here
       console.log("The API is loaded");
       API.events.getEvents({
         params:{
           include_removed_events: false
         }
       });
-      API.events.postEvent({
+      API.events.patchEvent({
         params:{
-          title: "false"
+          // In the case the url contains "in_url" params is important to add it to the params. If not it will be left as the "key"
+          id: "event_id"
         }
-      })
+      });
     }
   };
-  API = new swaggerAPI(swaggerOptions);
+  API = new openAPIJS(swaggerOptions);
 }
 run();

@@ -22,7 +22,7 @@ function{
 
 ## Why
 
-Based on [Swagger Spec](https://github.com/swagger-api/swagger-spec) building a basic connector for the awesome [Calendar42](http://calendar42.com) [REST API](https://calendar42.com/api/docs/).
+Based on [Open API Specification](https://github.com/OAI/OpenAPI-Specification) building a basic connector for the awesome [Calendar42](http://calendar42.com) [REST API](https://calendar42.com/api/docs/).
 
 ## Goal
 
