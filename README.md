@@ -11,12 +11,12 @@ The simplest example is the following:
 ```
 var API;
 function{
-  var swaggerOptions = {
+  var openAPIOptions = {
     "serverInfo":{
       "basePath": 'https://beta.calendar42.com/api'
     }
   };
-  API = new openAPIJS(swaggerOptions);
+  API = new openAPIJS(openAPIOptions);
 }();
 ```
 
