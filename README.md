@@ -48,12 +48,38 @@ API.events.getEvents({
 })
 ```
 
-## Why
-
-Based on [Open API Specification](https://github.com/OAI/OpenAPI-Specification), this component generates a Javascript abstraction of any API that uses the Open API specification.
-
- specification building a basic connector for the awesome [Calendar42](http://calendar42.com) [REST API](https://calendar42.com/api/docs/).
-
 ## Goal
 
-To create an agnostic js (ES5) client that will be able to manage all changes in the REST side without change.
+To create an agnostic Javascript client that autogenerates the mapping API in the local environment.
+
+## TODO's
+
+> This is the list of next steps to evolve this library.
+
+### Structure/Compatibility
+
+> Any of this points will generate a new major version of the module
+
+* Move to ES6: usage of fetch, exports, etc.
+* Simplify the operations generation
+* Update to OPEN API 2.0
+
+### Functionalities
+
+* Fields validation: Add validation before performing a call towards the API validating the correct sending of parameters.
+* Improve documentation: There is always a lot to improve. Please feel free of adding a proper usage documentation.
+* Provide of new examples: If you use this component, please add your case as an example.
+
+## Why
+
+Looks like we are going to have a new starndard!
+
+> -_-'
+
+Hurray for the [Open API Specification](https://github.com/OAI/OpenAPI-Specification) !!
+
+With a strong believe that this standard will be followed by most of the API providers, I would like to make easy the mapping and usage of any API.
+
+Avoid stupid typo mistakes, increasing the accessibility to the API's, avoid to read awful documentations, there is many reasons to improve and push this project.
+
+Why opensourcing? - I hope you meant, why not...? ;)
