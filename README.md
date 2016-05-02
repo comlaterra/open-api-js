@@ -56,7 +56,7 @@ To create an agnostic Javascript client that autogenerates the mapping API in th
 
 > This is the list of next steps to evolve this library.
 
-### Structure/Compatibility
+##### Structure/Compatibility
 
 > Any of this points will generate a new major version of the module
 
@@ -64,7 +64,7 @@ To create an agnostic Javascript client that autogenerates the mapping API in th
 * Simplify the operations generation
 * Update to OPEN API 2.0
 
-### Functionalities
+##### Functionalities
 
 * Fields validation: Add validation before performing a call towards the API validating the correct sending of parameters.
 * Improve documentation: There is always a lot to improve. Please feel free of adding a proper usage documentation.
